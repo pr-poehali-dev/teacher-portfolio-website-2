@@ -184,7 +184,7 @@ export default function Index() {
         <div className="section-header">
           <span className="section-eyebrow">Портфолио педагога</span>
           <h2 className="section-title">Работы педагога</h2>
-          <p className="section-subtitle">Проекты, которые вдохновляют — созданные вместе с учениками</p>
+          <p className="section-subtitle">Работы, созданные педагогом — могут помочь в подготовке</p>
         </div>
         <div className="gallery-grid">
           {projects.map((project, i) => (
