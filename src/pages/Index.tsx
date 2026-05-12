@@ -161,8 +161,8 @@ export default function Index() {
           <div className="hero-text">
             <div className="hero-eyebrow">Портфолио педагога</div>
             <h1 className="hero-name">
-              Анна<br />
-              <span className="hero-name-accent">Смирнова</span>
+              Денис<br />
+              <span className="hero-name-accent">Сергеев</span>
             </h1>
             <p className="hero-desc">
               Педагог высшей категории — вдохновляю учеников на творчество и научные открытия уже 12 лет
@@ -279,9 +279,9 @@ export default function Index() {
       <footer className="portfolio-footer">
         <div className="footer-logo">
           <span className="logo-dot" />
-          Анна Смирнова
+          Сергеев Денис Сергеевич
         </div>
-        <p className="footer-text">Педагог высшей категории · Открыта к сотрудничеству</p>
+        <p className="footer-text">Педагог высшей категории · Открыт к сотрудничеству</p>
         <div className="footer-nav">
           {navItems.map((item) => (
             <button key={item.id} className="footer-link" onClick={() => scrollTo(item.id)}>
