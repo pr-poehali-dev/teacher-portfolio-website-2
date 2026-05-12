@@ -155,7 +155,7 @@ export default function Index() {
             <img src={TEACHER_PHOTO} alt="Денис Сергеев" className="hero-photo" />
             <div className="hero-photo-badge">
               <Icon name="Star" size={14} />
-              Учитель года
+              Начинающий педагог
             </div>
           </div>
           <div className="hero-text">
