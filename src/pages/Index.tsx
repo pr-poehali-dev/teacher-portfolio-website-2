@@ -191,7 +191,7 @@ export default function Index() {
       {/* Gallery */}
       <section id="gallery" className="gallery-section">
         <div className="section-header">
-          <span className="section-eyebrow">Портфолио класса</span>
+          <span className="section-eyebrow">Портфолио педагога</span>
           <h2 className="section-title">Работы учащихся</h2>
           <p className="section-subtitle">Проекты, которые вдохновляют — созданные вместе с учениками</p>
         </div>
