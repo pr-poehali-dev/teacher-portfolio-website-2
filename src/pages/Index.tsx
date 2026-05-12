@@ -207,6 +207,38 @@ export default function Index() {
             </a>
           ))}
 
+          {/* Дополнительные тесты */}
+          {[
+            { title: "Банк тестов", source: "banktestov.ru", url: "https://banktestov.ru/test/113454", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/7c306945-f188-4c13-a52c-07137d6dae0f.jpg" },
+            { title: "Online Test", source: "onlinetestpad.com", url: "https://onlinetestpad.com/a45c5mlb6wex2", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/7eaad9c8-4be8-4441-9921-3ce5164e4dca.jpg" },
+            { title: "Яндекс Формы", source: "anketolog.ru", url: "https://anketolog.ru/rs/1031710/H4NxLDTo", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/9be991d0-b589-4ef2-b17e-abd3f59bdd95.jpg" },
+            { title: "1С:Урок", source: "urok.1c.ru", url: "https://urok.1c.ru/constructor/qti/431002.phd", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/865624d9-b46f-433d-bd43-2db0d2396138.jpg" },
+          ].map((t, i) => (
+            <a
+              key={i}
+              href={t.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card test-card"
+            >
+              <div className="test-card-icon">
+                <img src={t.img} alt={t.title} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top" }} />
+              </div>
+              <div className="project-body">
+                <span className="project-tag" style={{ background: "#4ECDC422", color: "#4ECDC4", border: "1px solid #4ECDC444" }}>
+                  📝 Тест по истории
+                </span>
+                <h3 className="project-title">{t.title}</h3>
+                <p className="project-author">Создан педагогом Сергеевым Д.С.</p>
+                <p className="project-desc">Тест по истории СССР для подготовки к ЕГЭ и ОГЭ на платформе {t.source}.</p>
+                <div className="test-card-link">
+                  Пройти тест
+                  <Icon name="ExternalLink" size={15} />
+                </div>
+              </div>
+            </a>
+          ))}
+
           {/* Инфографик ЗОЖ */}
           <a
             href="https://my.visme.co/view/j0nxnwvy-blank"
