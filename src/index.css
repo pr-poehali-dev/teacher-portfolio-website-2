@@ -824,6 +824,41 @@
   overflow: hidden;
 }
 
+.test-card {
+  text-decoration: none;
+  display: block;
+  max-width: 380px;
+}
+
+.test-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  background: linear-gradient(
+    135deg,
+    rgba(167, 139, 250, 0.15),
+    rgba(78, 205, 196, 0.1)
+  );
+  border-bottom: 1px solid var(--p-border);
+  color: #a78bfa;
+}
+
+.test-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 1rem;
+  color: #a78bfa;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: gap 0.2s;
+}
+
+.test-card:hover .test-card-link {
+  gap: 10px;
+}
+
 /* FOOTER */
 .portfolio-footer {
   padding: 3rem 2rem;

@@ -146,38 +146,28 @@ export default function Index() {
           <p className="section-subtitle">Работы, созданные педагогом — могут помочь в подготовке</p>
         </div>
         <div className="gallery-grid">
-          {projects.map((project, i) => (
-            <div
-              key={project.id}
-              className="project-card"
-              style={{ animationDelay: `${i * 0.1}s` }}
-              onClick={() => setSelectedProject(project)}
-            >
-              <div className="project-img-wrap">
-                <img src={project.image} alt={project.title} className="project-img" />
-                <div className="project-award">{project.award}</div>
-                <div className="project-overlay">
-                  <Icon name="Expand" size={24} />
-                  <span>Подробнее</span>
-                </div>
-              </div>
-              <div className="project-body">
-                <span
-                  className="project-tag"
-                  style={{
-                    background: `${project.tagColor}22`,
-                    color: project.tagColor,
-                    border: `1px solid ${project.tagColor}44`,
-                  }}
-                >
-                  {project.tag}
-                </span>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-author">{project.author}</p>
-                <p className="project-desc">{project.description}</p>
+          <a
+            href="https://usld.ru/ru/?code=128005"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card test-card"
+          >
+            <div className="test-card-icon">
+              <Icon name="BookOpen" size={40} />
+            </div>
+            <div className="project-body">
+              <span className="project-tag" style={{ background: "#A78BFA22", color: "#A78BFA", border: "1px solid #A78BFA44" }}>
+                📝 Тест для подготовки
+              </span>
+              <h3 className="project-title">Тест по истории</h3>
+              <p className="project-author">Создан педагогом Сергеевым Д.С.</p>
+              <p className="project-desc">Авторский тест для подготовки к ЕГЭ и ОГЭ по истории. Пройдите тест и проверьте свои знания.</p>
+              <div className="test-card-link">
+                Пройти тест
+                <Icon name="ExternalLink" size={15} />
               </div>
             </div>
-          ))}
+          </a>
         </div>
       </section>
 
