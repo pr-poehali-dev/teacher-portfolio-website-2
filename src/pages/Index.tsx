@@ -120,20 +120,20 @@ export default function Index() {
               <span className="hero-name-accent">Сергеев</span>
             </h1>
             <p className="hero-desc">
-              Начинающий педагог — помогающий подготовиться к Истории
+              Начинающий педагог — помогу подготовиться к истории
             </p>
             <div className="hero-cta">
               <button className="btn-primary" onClick={() => scrollTo("gallery")}>
                 Смотреть работы
                 <Icon name="ArrowRight" size={18} />
               </button>
-              <button className="btn-secondary" onClick={() => scrollTo("achievements")}>
-                Достижения
+              <button className="btn-secondary" onClick={() => scrollTo("gallery")}>
+                Работы
               </button>
             </div>
           </div>
         </div>
-        <button className="hero-scroll-hint" onClick={() => scrollTo("achievements")}>
+        <button className="hero-scroll-hint" onClick={() => scrollTo("gallery")}>
           <Icon name="ChevronDown" size={22} />
         </button>
       </section>
