@@ -153,7 +153,7 @@ export default function Index() {
             className="project-card test-card"
           >
             <div className="test-card-icon">
-              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/45328a0b-8a66-4e3f-a729-b23f829d2502.jpg" alt="И.В. Сталин" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/8ff98d99-17de-4129-a0e0-f46cc9d39688.png" alt="И.В. Сталин" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
             </div>
             <div className="project-body">
               <span className="project-tag" style={{ background: "#A78BFA22", color: "#A78BFA", border: "1px solid #A78BFA44" }}>
