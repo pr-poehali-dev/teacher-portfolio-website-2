@@ -188,50 +188,6 @@ export default function Index() {
         </button>
       </section>
 
-      {/* Achievements */}
-      <section id="achievements" className="achievements-section">
-        <div className="section-header">
-          <span className="section-eyebrow">Результаты работы</span>
-          <h2 className="section-title">Достижения</h2>
-          <p className="section-subtitle">Каждая цифра — это реальные результаты и гордость за учеников</p>
-        </div>
-        <div className="achievements-grid" ref={achievementsRef}>
-          {achievements.map((a, i) => (
-            <div key={i} className="achievement-card" style={{ animationDelay: `${i * 0.12}s` }}>
-              <div className="achievement-icon-wrap" style={{ background: `${a.color}22`, border: `1.5px solid ${a.color}55` }}>
-                <Icon name={a.icon} size={28} style={{ color: a.color }} />
-              </div>
-              <div className="achievement-number" style={{ color: a.color }}>
-                {achievementsInView ? <AnimatedNumber target={a.number} /> : "0"}
-              </div>
-              <div className="achievement-label">{a.label}</div>
-              <div className="achievement-desc">{a.desc}</div>
-            </div>
-          ))}
-        </div>
-
-        <div className="awards-block">
-          <h3 className="awards-title">Личные награды</h3>
-          <div className="awards-list">
-            {[
-              { year: "2024", title: "Лучший педагог региона", org: "Министерство образования" },
-              { year: "2023", title: "Грант «Учитель будущего»", org: "Фонд развития образования" },
-              { year: "2022", title: "Победитель конкурса педагогических практик", org: "Всероссийский уровень" },
-              { year: "2020", title: "Почётная грамота губернатора", org: "За вклад в образование" },
-            ].map((award, i) => (
-              <div key={i} className="award-item">
-                <div className="award-year">{award.year}</div>
-                <div className="award-info">
-                  <div className="award-title-text">{award.title}</div>
-                  <div className="award-org">{award.org}</div>
-                </div>
-                <div className="award-star">⭐</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Gallery */}
       <section id="gallery" className="gallery-section">
         <div className="section-header">
