@@ -174,7 +174,7 @@ export default function Index() {
             { num: 1, url: "https://learningapps.org/watch?v=phcyuus8n26", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/b86cc015-da1c-4631-a0c8-845054a641b6.jpg", alt: "Космос СССР" },
             { num: 2, url: "https://learningapps.org/watch?v=ppkn6c80a26", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/1781745f-e845-47c2-b3c4-5f9fe4351fff.jpg", alt: "Красная армия" },
             { num: 3, url: "https://learningapps.org/watch?v=pxff6xs2v26", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/ca0b3532-b8a7-4847-b656-324e894b7295.jpg", alt: "Индустриализация" },
-            { num: 4, url: "https://learningapps.org/watch?v=pymb6ki6526", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/04a473bf-5c0a-4a01-983b-0d6b2af6c7d4.jpg", alt: "Ленин" },
+            { num: 4, url: "https://learningapps.org/watch?v=pymb6ki6526", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/04a473bf-5c0a-4a01-983b-0d6b2af6c7d4.jpg", alt: "Ленин", pos: "center 40%" },
             { num: 5, url: "https://learningapps.org/watch?v=pugg1rwcn26", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/e318a559-27f4-40e2-aae4-a248de96d8a5.jpg", alt: "Колхоз" },
             { num: 6, url: "https://learningapps.org/watch?v=pnqv9ycp326", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/55b34577-ad1c-47c5-a5c5-f4cd6433a164.jpg", alt: "Москва Кремль" },
             { num: 7, url: "https://learningapps.org/watch?v=pudmqwcwn26", img: "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/f17b3548-482e-439d-8404-8512142f32a8.jpg", alt: "Гагарин" },
@@ -190,7 +190,7 @@ export default function Index() {
               className="project-card test-card"
             >
               <div className="test-card-icon">
-                <img src={t.img} alt={t.alt} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src={t.img} alt={t.alt} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: ("pos" in t ? t.pos : "center top") as string }} />
               </div>
               <div className="project-body">
                 <span className="project-tag" style={{ background: "#FF6B6B22", color: "#FF6B6B", border: "1px solid #FF6B6B44" }}>
