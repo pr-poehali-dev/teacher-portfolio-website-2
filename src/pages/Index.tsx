@@ -169,6 +169,44 @@ export default function Index() {
             </div>
           </a>
 
+          {/* Тесты по СССР */}
+          {[
+            { num: 1, url: "https://learningapps.org/watch?v=phcyuus8n26" },
+            { num: 2, url: "https://learningapps.org/watch?v=ppkn6c80a26" },
+            { num: 3, url: "https://learningapps.org/watch?v=pxff6xs2v26" },
+            { num: 4, url: "https://learningapps.org/watch?v=pymb6ki6526" },
+            { num: 5, url: "https://learningapps.org/watch?v=pugg1rwcn26" },
+            { num: 6, url: "https://learningapps.org/watch?v=pnqv9ycp326" },
+            { num: 7, url: "https://learningapps.org/watch?v=pudmqwcwn26" },
+            { num: 8, url: "https://learningapps.org/watch?v=peb2w67i526" },
+            { num: 9, url: "https://learningapps.org/watch?v=pkmwh3w7j26" },
+            { num: 10, url: "https://learningapps.org/watch?v=px8rf4p4t26" },
+          ].map((t) => (
+            <a
+              key={t.num}
+              href={t.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card test-card"
+            >
+              <div className="test-card-icon">
+                <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/cb0702ce-42f1-4844-a338-356edc0578c0.jpg" alt="СССР" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              </div>
+              <div className="project-body">
+                <span className="project-tag" style={{ background: "#FF6B6B22", color: "#FF6B6B", border: "1px solid #FF6B6B44" }}>
+                  🇷🇺 Тест по истории
+                </span>
+                <h3 className="project-title">Тест по СССР №{t.num}</h3>
+                <p className="project-author">Создан педагогом Сергеевым Д.С.</p>
+                <p className="project-desc">Интерактивный тест по теме «СССР» для подготовки к ЕГЭ и ОГЭ по истории.</p>
+                <div className="test-card-link">
+                  Пройти тест
+                  <Icon name="ExternalLink" size={15} />
+                </div>
+              </div>
+            </a>
+          ))}
+
           {/* Инфографик ЗОЖ */}
           <a
             href="https://my.visme.co/view/j0nxnwvy-blank"
