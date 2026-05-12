@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
-const TEACHER_PHOTO = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/931be37d-e23e-4609-9a68-0aa52b8ef4cb.jpg";
+const TEACHER_PHOTO = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/fbafe501-45d9-4fa5-8247-c0507da778c6.png";
 const GALLERY_IMG1 = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/005d6977-eb21-43c8-8955-523826dedc3f.jpg";
 const GALLERY_IMG2 = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/d464b14c-df16-4cdd-bddd-323bc55faf25.jpg";
 
@@ -150,6 +150,14 @@ export default function Index() {
           <div className="orb orb3" />
         </div>
         <div className="hero-content">
+          <div className="hero-photo-wrap">
+            <div className="hero-photo-ring" />
+            <img src={TEACHER_PHOTO} alt="Денис Сергеев" className="hero-photo" />
+            <div className="hero-photo-badge">
+              <Icon name="Star" size={14} />
+              Учитель года
+            </div>
+          </div>
           <div className="hero-text">
             <div className="hero-eyebrow">Портфолио педагога</div>
             <h1 className="hero-name">
