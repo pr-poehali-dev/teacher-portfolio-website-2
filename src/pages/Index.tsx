@@ -167,11 +167,6 @@ export default function Index() {
             <p className="hero-desc">
               Начинающий педагог — помогающий подготовиться к Истории
             </p>
-            <div className="hero-tags">
-              <span className="hero-tag">🎨 Творческие проекты</span>
-              <span className="hero-tag">🔬 STEM-образование</span>
-              <span className="hero-tag">📚 Исследования</span>
-            </div>
             <div className="hero-cta">
               <button className="btn-primary" onClick={() => scrollTo("gallery")}>
                 Смотреть работы
