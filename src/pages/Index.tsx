@@ -177,7 +177,7 @@ export default function Index() {
             className="project-card test-card"
           >
             <div className="test-card-icon">
-              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/9dc14fb4-ee66-49fa-8bc1-801ea0e25c67.png" alt="ЗОЖ инфографик" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
+              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/40c94a99-b78f-4579-959d-19890db305e9.png" alt="ЗОЖ инфографик" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
             </div>
             <div className="project-body">
               <span className="project-tag" style={{ background: "#4ECDC422", color: "#4ECDC4", border: "1px solid #4ECDC444" }}>
