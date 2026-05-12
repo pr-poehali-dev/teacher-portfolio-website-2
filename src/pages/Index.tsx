@@ -5,48 +5,7 @@ const TEACHER_PHOTO = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-
 const GALLERY_IMG1 = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/005d6977-eb21-43c8-8955-523826dedc3f.jpg";
 const GALLERY_IMG2 = "https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/files/d464b14c-df16-4cdd-bddd-323bc55faf25.jpg";
 
-const projects = [
-  {
-    id: 1,
-    title: "Экологический плакат",
-    author: "Анастасия К., 8 класс",
-    description: "Серия работ о сохранении природы. Учащаяся создала цикл из 5 плакатов, которые заняли 1 место на городском конкурсе.",
-    tag: "Изобразительное искусство",
-    tagColor: "#FF6B6B",
-    image: GALLERY_IMG1,
-    award: "🥇 1 место",
-  },
-  {
-    id: 2,
-    title: "Роботизированная рука",
-    author: "Михаил Д., 10 класс",
-    description: "Проект по робототехнике — прототип манипулятора для помощи людям с ограниченными возможностями. Представлен на региональной олимпиаде.",
-    tag: "STEM-проект",
-    tagColor: "#4ECDC4",
-    image: GALLERY_IMG2,
-    award: "🏆 Гран-при",
-  },
-  {
-    id: 3,
-    title: "Исторический атлас",
-    author: "Группа 9Б класса",
-    description: "Интерактивный атлас истории родного края, созданный совместно всем классом. Включает более 200 объектов с описаниями.",
-    tag: "Исследовательский",
-    tagColor: "#A78BFA",
-    image: GALLERY_IMG1,
-    award: "⭐ Лучший проект",
-  },
-  {
-    id: 4,
-    title: "Цифровая живопись",
-    author: "Дарья М., 7 класс",
-    description: "Серия цифровых иллюстраций к классической литературе. Работы вошли в школьный альманах и были опубликованы в районной газете.",
-    tag: "Цифровое искусство",
-    tagColor: "#F59E0B",
-    image: GALLERY_IMG2,
-    award: "🎨 Выбор жюри",
-  },
-];
+const projects: never[] = [];
 
 const achievements = [
   { icon: "Trophy", number: "47", label: "Призовых мест", desc: "учащихся на олимпиадах", color: "#FFD700" },
