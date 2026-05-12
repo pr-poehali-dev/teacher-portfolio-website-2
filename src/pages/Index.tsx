@@ -165,7 +165,7 @@ export default function Index() {
               <span className="hero-name-accent">Сергеев</span>
             </h1>
             <p className="hero-desc">
-              Педагог высшей категории — вдохновляю учеников на творчество и научные открытия уже 12 лет
+              Начинающий педагог — помогающий подготовиться к Истории
             </p>
             <div className="hero-tags">
               <span className="hero-tag">🎨 Творческие проекты</span>
