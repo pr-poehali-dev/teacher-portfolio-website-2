@@ -150,14 +150,6 @@ export default function Index() {
           <div className="orb orb3" />
         </div>
         <div className="hero-content">
-          <div className="hero-photo-wrap">
-            <div className="hero-photo-ring" />
-            <img src={TEACHER_PHOTO} alt="Педагог" className="hero-photo" />
-            <div className="hero-photo-badge">
-              <Icon name="Star" size={14} />
-              Учитель года
-            </div>
-          </div>
           <div className="hero-text">
             <div className="hero-eyebrow">Портфолио педагога</div>
             <h1 className="hero-name">
