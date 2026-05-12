@@ -114,7 +114,6 @@ export default function Index() {
 
   const navItems = [
     { id: "home", label: "Главная" },
-    { id: "achievements", label: "Достижения" },
     { id: "gallery", label: "Работы" },
   ];
 
