@@ -89,16 +89,13 @@ export default function Index() {
   const [activeSection, setActiveSection] = useState("home");
   const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
-  const achievementsRef = useRef<HTMLDivElement>(null);
-  const achievementsInView = useInView(achievementsRef as React.RefObject<Element>);
-
   const scrollTo = (id: string) => {
     setMenuOpen(false);
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
-    const sections = ["home", "achievements", "gallery"];
+    const sections = ["home", "gallery"];
     const observers = sections.map((id) => {
       const el = document.getElementById(id);
       if (!el) return null;
