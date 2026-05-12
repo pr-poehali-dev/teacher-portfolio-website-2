@@ -168,6 +168,46 @@ export default function Index() {
               </div>
             </div>
           </a>
+
+          {/* Инфографик ЗОЖ */}
+          <a
+            href="https://my.visme.co/view/j0nxnwvy-blank"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card test-card"
+          >
+            <div className="test-card-icon">
+              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/9dc14fb4-ee66-49fa-8bc1-801ea0e25c67.png" alt="ЗОЖ инфографик" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
+            </div>
+            <div className="project-body">
+              <span className="project-tag" style={{ background: "#4ECDC422", color: "#4ECDC4", border: "1px solid #4ECDC444" }}>
+                📊 Инфографик
+              </span>
+              <h3 className="project-title">ЗОЖ — это здорово!</h3>
+              <p className="project-author">Создан педагогом Сергеевым Д.С.</p>
+              <p className="project-desc">Простые привычки на каждый день — инфографик с полезными советами для здорового образа жизни.</p>
+              <div className="test-card-link">
+                Смотреть инфографик
+                <Icon name="ExternalLink" size={15} />
+              </div>
+            </div>
+          </a>
+
+          {/* Буклет ЗОЖ */}
+          <div className="project-card test-card" style={{ cursor: "default" }}>
+            <div className="test-card-icon" style={{ display: "flex", gap: "4px", padding: 0, overflow: "hidden" }}>
+              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/9dc14fb4-ee66-49fa-8bc1-801ea0e25c67.png" alt="Буклет стр.1" style={{ width: "50%", height: "100%", objectFit: "cover" }} />
+              <img src="https://cdn.poehali.dev/projects/4f0344ab-8a99-420a-8cad-debf4a59aa43/bucket/38fe70d4-f2a9-48f0-a833-bfd5cf285b5f.png" alt="Буклет стр.2" style={{ width: "50%", height: "100%", objectFit: "cover" }} />
+            </div>
+            <div className="project-body">
+              <span className="project-tag" style={{ background: "#FF6B6B22", color: "#FF6B6B", border: "1px solid #FF6B6B44" }}>
+                📄 Буклет
+              </span>
+              <h3 className="project-title">ЗОЖ — это здорово!</h3>
+              <p className="project-author">Создан педагогом Сергеевым Д.С.</p>
+              <p className="project-desc">Буклет «Простые привычки на каждый день» — утро, день, вечер и советы для здоровья и хорошего настроения.</p>
+            </div>
+          </div>
         </div>
       </section>
 
